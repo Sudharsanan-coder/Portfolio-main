@@ -14,7 +14,7 @@ const iconVar= (duration) =>({
 const Technologies = () => {
   return (
     
-    <div className='border-b border-neutral-900 pb-24 mt-8'>
+    <div className=' pb-24 mt-8'>
         <motion.div  whileInView={{opacity:1,y:0}} initial={{opacity:0,y:-100}} transition={{duration:0.5}} className='text-2xl text-center font-bold mb-14'>Technologies</motion.div>
 
         <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:-100}} transition={{duration:1.5}}

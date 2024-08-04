@@ -9,7 +9,7 @@ const container =(delay) =>({
 
 const content = () => {
   return (
-    <div className='border-neutral-900 pb-8 lg:mb-35 mt-7 mx-10'>
+    <div className=' pb-8 lg:mb-35 mt-7 mx-10'>
         <div className='flex flex-wrap'>
             
             <div className=' flex w-full lg:w-1/2'>

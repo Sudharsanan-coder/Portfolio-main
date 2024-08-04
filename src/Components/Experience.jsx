@@ -23,7 +23,7 @@ const Experience = () => {
 
     ]
   return (
-    <div className="border-b border-neutral-900 pb-4 mx-10">
+    <div className=" pb-4 mx-10">
       <motion.h1   whileInView={{opacity:1,y:0}} initial={{opacity:0,y:-100}} transition={{duration:0.5}}  className="text-2xl text-center font-bold my-20">Experience</motion.h1>
       <div>
         {Exp.map((item, index) => (

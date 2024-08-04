@@ -5,7 +5,7 @@ import { delay, motion } from "framer-motion"
 
 const About = () => {
   return (
-    <div className='mt-16 border-b border-neutral-900 pb-4 mx-10'>
+    <div className='mt-16  pb-4 mx-10'>
         <div className='flex text-center justify-center'>
           <div className='text-2xl text-center font-bold'>About </div>
           <div className="text-2xl text-center font-thin ml-2">Me</div>

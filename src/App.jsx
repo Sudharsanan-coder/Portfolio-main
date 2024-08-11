@@ -4,6 +4,8 @@ import About from './Components/About.jsx'
 import Technologies from './Components/technologies.jsx'
 import Experience from './Components/Experience.jsx'
 import Contact from './Components/Contact.jsx'
+import Email from './Components/Email.jsx'
+import Certificate from './Components/Certificates/Certificate.jsx'
 
 function App() {
   
@@ -20,7 +22,10 @@ function App() {
     <About />
     <Technologies />
     <Experience/>
+    <Certificate/>
+    <Email/>
     <Contact/>
+    
   </div>
 </div>
   )

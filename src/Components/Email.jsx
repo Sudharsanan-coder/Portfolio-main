@@ -54,7 +54,7 @@ const Email = () => {
            
 
             </div>
-            <div className="text-center"><button className='p-2 bg-blue-800 mt-6 rounded-2xl cursor-pointer hover:bg-blue-800 hover:duration-300'>Submit</button></div>
+            <div className="text-center"><button className='p-2 h-12 w-24 bg-blue-800 mt-6 rounded-2xl cursor-pointer hover:bg-blue-800 hover:duration-300 hover:scale-105'>Submit</button></div>
         </form>
     </section>
   )

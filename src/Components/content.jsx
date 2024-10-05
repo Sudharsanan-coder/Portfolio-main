@@ -15,7 +15,7 @@ const content = () => {
             <div className=' flex w-full lg:w-1/2'>
                 <div className='flex flex-col item-center lg:items-start '>
                   <motion.div variants={container(0)} initial="hidden" animate="visible"
-                   className='font-thin text-[60px] mt-8 tracking-tight lg:mt-16  lg:text-8xl'>T.V.Sudharsanan</motion.div><br></br>
+                   className='font-thin text-[52px] mt-8 tracking-tight lg:mt-16  lg:text-8xl'>T.V.Sudharsanan</motion.div><br></br>
                   
                   <motion.span variants={container(0.5)} initial="hidden" animate="visible"
                   className='bg-gradient-to-r from bg-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent mb-2'>Full-stack developer</motion.span>

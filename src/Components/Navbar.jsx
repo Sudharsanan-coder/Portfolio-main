@@ -14,7 +14,7 @@ function Navbar(){
                     <div className="font-Inter font-bold  text-xl mx-2">Portfolio</div>
                 </div>
 
-                <div className="flex items-center gap-5 ">
+                <div className="flex items-center gap-2 lg:gap-5">
                     <div><a href="https://github.com/Sudharsanan-coder" target="blank"><FaGithub className="h-7 w-8"/></a></div>
                     <div><a href="https://www.linkedin.com/in/sudharsanan-t-v-58459b257/" target="blank"><IoLogoLinkedin className="h-7 w-8"/></a></div>
                     <div><a href="https://www.instagram.com/zudharzanan.xd/" target="blank"><FaInstagramSquare className="h-7 w-8"/></a></div>

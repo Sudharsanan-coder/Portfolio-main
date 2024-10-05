@@ -41,15 +41,15 @@ const Email = () => {
             <div className="flex">
             
                 <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:-100}} transition={{duration:0.5}} className=" w-1/2">
-                    <div className="me-3 lg:text-end">Full name</div><br></br>
-                    <div className="me-3 lg:text-end mt-4 ">Email Address</div><br></br>
-                    <div className="me-3 lg:text-end mt-4 " >Message</div>
+                    <div className="me-3 lg:ms-56">Full name</div><br></br>
+                    <div className="me-3 lg:ms-56 mt-4 ">Email Address</div><br></br>
+                    <div className="me-3 lg:ms-56 mt-4 " >Message</div>
                 </motion.div>
             
                 <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:0.5}} className="w-1/2  mx-auto ">
-                    <input className="flex me-3 rounded-sm text-black p-2 sm:w-52" type="text" placeholder='Enter your name' name='name' required/><br></br>
-                    <input className="flex me-3 rounded-sm text-black p-2 sm:w-52" type="text" placeholder='Enter your Email' name='email' required/><br></br>
-                    <textarea className="flex me-3 rounded-sm text-black p-2 " placeholder='Enter the message'  name='message' id="" required></textarea>
+                    <input className="flex me-3 rounded-sm text-black p-2 w-36 lg:w-80" type="text" placeholder='Enter your name' name='name' required/><br></br>
+                    <input className="flex me-3 rounded-sm text-black p-2 w-36 lg:w-80" type="text" placeholder='Enter your Email' name='email' required/><br></br>
+                    <textarea className="flex me-3 rounded-sm text-black w-36 p-2 lg:w-80" placeholder='Enter the message'  name='message' id="" required></textarea>
                 </motion.div>
            
 

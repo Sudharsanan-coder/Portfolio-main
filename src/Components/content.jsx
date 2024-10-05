@@ -9,7 +9,7 @@ const container =(delay) =>({
 
 const content = () => {
   return (
-    <div className=' pb-8 lg:mb-35 mt-7 mx-10'>
+    <div className='lg:mb-35 mt-7 mx-10'>
         <div className='flex flex-wrap'>
             
             <div className=' flex w-full lg:w-1/2'>
@@ -21,14 +21,14 @@ const content = () => {
                   className='bg-gradient-to-r from bg-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent mb-2'>Full-stack developer</motion.span>
                   
                   <motion.p variants={container(1)} initial="hidden" animate="visible"
-                  className='my-2 max-w-xl text-xl  font-light '>"I am a Full Stack Developer and UI Designer with a strong foundation in both coding and visual design. I have experience building dynamic, high-performance web applications using technologies like JavaScript, React, Node.js, and more. With a solid understanding of databases and server-side logic, I can create seamless user experiences from the ground up. Passionate about problem-solving and continually learning new tools and frameworks, I bring an adaptable and innovative approach to every project.</motion.p>
+                  className='my-2 max-w-xl text-xl  font-light '>I am a Full Stack Developer and UI/UX Designer with a strong background in building dynamic web applications and creating visually appealing, user-centered designs.Passionate about problem-solving and continually learning new tools and frameworks, I bring an adaptable and innovative approach to every project.</motion.p>
                 </div>
             </div>
 
             <div className='w-full lg:w-1/2'>
               <div className='flex justify-center'>
                 <motion.img initial={{x:100,opacity:0}} animate={{x:0,opacity:1}} transition={{duration:1,delay:1.2}}
-                className='rounded-full mt-32 ms-10' src={Round1}/>
+                className='rounded-full lg:mt-32 m-10 ms-10' src={Round1}/>
               </div> 
             </div>
 

@@ -15,20 +15,20 @@ const content = () => {
             <div className=' flex w-full lg:w-1/2'>
                 <div className='flex flex-col item-center lg:items-start '>
                   <motion.div variants={container(0)} initial="hidden" animate="visible"
-                   className='font-thin text-4xl mt-24 tracking-tight lg:mt-16  lg:text-8xl'>T.V.Sudharsanan</motion.div><br></br>
+                   className='font-thin text-5xl mt-24 tracking-tight lg:mt-16  lg:text-8xl'>T.V.Sudharsanan</motion.div><br></br>
                   
                   <motion.span variants={container(0.5)} initial="hidden" animate="visible"
-                  className='bg-gradient-to-r from bg-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent mb-2'>Front-End developer</motion.span>
+                  className='bg-gradient-to-r from bg-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent mb-2'>Full-stack developer</motion.span>
                   
                   <motion.p variants={container(1)} initial="hidden" animate="visible"
-                  className='my-2 max-w-xl text-xl tracking-tight font-light '>Skilled Front-End Developer with experience in creating responsive, user-friendly web applications using HTML,Tailwind CSS, JavaScript, and modern frameworks. Adept at translating design mockups into functional, visually appealing interfaces, and optimizing performance for a seamless user experience</motion.p>
+                  className='my-2 max-w-xl text-xl  font-light '>I am a Full Stack Developer and UI/UX Designer with a strong background in building dynamic web applications and creating visually appealing, user-centered designs. Skilled in both front-end and back-end technologies, I specialize in translating complex requirements into seamless digital experiences. Passionate about problem-solving and continually learning new tools and frameworks, I bring an adaptable and innovative approach to every project.</motion.p>
                 </div>
             </div>
 
             <div className='w-full lg:w-1/2'>
               <div className='flex justify-center'>
                 <motion.img initial={{x:100,opacity:0}} animate={{x:0,opacity:1}} transition={{duration:1,delay:1.2}}
-                className='rounded-full mt-32 ms-10' src={Round1} alt="Profile" />
+                className='rounded-full mt-32 ms-10' src={Round1}/>
               </div> 
             </div>
 

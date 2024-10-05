@@ -4,7 +4,11 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { RiJavascriptFill } from "react-icons/ri";
 import { FaJava } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
-import { motion } from "framer-motion"  
+import { DiNodejs } from "react-icons/di";
+import { SiExpress } from "react-icons/si";
+import { FaFigma } from "react-icons/fa";
+import { motion } from "framer-motion"; 
+import { IoLogoBuffer } from "react-icons/io";
 
 const iconVar= (duration) =>({
   initial:{y:-10},
@@ -24,6 +28,11 @@ const Technologies = () => {
             <RiReactjsLine className='h-12 w-12 text-cyan-400'/>
             </motion.div>
 
+            <motion.div variants={iconVar(1)} initial="initial" animate="animate"
+            className='rounded-xl border-4 border-neutral-800 p-3'>
+            <FaFigma className='h-12 w-12 text-white'/>
+            </motion.div>
+            
             <motion.div variants={iconVar(3)} initial="initial" animate="animate"
             className='rounded-xl border-4 border-neutral-800 p-3'>
             <RiJavascriptFill className='h-12 w-12 text-yellow-300'/>
@@ -32,6 +41,18 @@ const Technologies = () => {
             <motion.div variants={iconVar(1.5)} initial="initial" animate="animate"
             className='rounded-xl border-4 border-neutral-800 p-3'>
             <RiTailwindCssFill className='h-12 w-12 text-cyan-400'/>
+            </motion.div>
+
+            
+
+            <motion.div variants={iconVar(2.5)} initial="initial" animate="animate"
+            className='rounded-xl border-4 border-neutral-800 p-3'>
+            <DiNodejs className='h-12 w-12 text-green-500'/>
+            </motion.div>
+
+            <motion.div variants={iconVar(1)} initial="initial" animate="animate"
+            className='rounded-xl border-4 border-neutral-800 p-3'>
+            <SiExpress className='h-12 w-12 text-white'/>
             </motion.div>
 
             <motion.div variants={iconVar(1)} initial="initial" animate="animate"
@@ -44,6 +65,11 @@ const Technologies = () => {
             <FaJava className='h-12 w-12 text-white'/>
             </motion.div>
             
+            <motion.div variants={iconVar(1.5)} initial="initial" animate="animate"
+            className='rounded-xl border-4 border-neutral-800 p-3'>
+            <IoLogoBuffer className='h-12 w-12 text-blue-900'/>
+            </motion.div>
+
         </motion.div>
     
     </div>

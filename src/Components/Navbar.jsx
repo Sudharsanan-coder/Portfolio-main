@@ -6,7 +6,7 @@ import logo from "../Components/images.png"
 
 function Navbar(){
     return(
-        <nav className="h-15 p-6 mt-4 mx-10 items-center text border rounded-lg">
+        <nav className="h-15 p-6 mt-8 mx-10 items-center text border rounded-lg">
             
             <div className="flex flex-shrink-0 items-center justify-between">
                 <div className="flex">

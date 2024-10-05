@@ -184,7 +184,7 @@ const Certificate = () => {
 
   return (
     <div className="w-full px-4 sm:px-6 lg:px-8 max-w-[1920px] mx-auto">
-      <motion.h2 whileInView={{opacity:1,y:0}} initial={{opacity:0,y:-100}} transition={{duration:0.5}}className="text-center text-xl font-bold sm:text-3xl lg:text-2xl mb-8 lg:mb-12">Certifications</motion.h2>
+      <motion.h2 whileInView={{opacity:1,y:0}} initial={{opacity:0,y:-100}} transition={{duration:0.5}}className="text-2xl text-center font-bold my-20">Certifications</motion.h2>
       <div className="my-8 sm:my-12 lg:my-16">
         <Slider {...settings}>
           {data.map((d, index) => (

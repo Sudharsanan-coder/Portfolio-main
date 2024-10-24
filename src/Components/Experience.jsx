@@ -21,14 +21,14 @@ const Experience = () => {
 
     },
 
-    /*{
-      years:" (22th August - 21th September)",
+    {
+      years:" (1st July- 30th September)",
       Role:"Web Developer Intern",
       Company:"DNYX (Business Solution)",
       Description:"I have successfully completed my Web Development internship! This invaluable experience allowed me to enhance my skills in both front-end and back-end development while working on real-world projects. I gained hands-on experience in building responsive websites, optimizing performance, and collaborating with talented teams to deliver high-quality solutions.",
       Technologies:["React.js","TailwindCSS","Node js","Express.js"],
 
-  },*/
+  },
 
     ]
   return (
